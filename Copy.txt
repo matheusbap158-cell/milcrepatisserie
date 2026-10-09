@@ -1,0 +1,143 @@
+COPY - MILCRÊ PÂTISSERIE (Lavras/MG)
+Landing page de demonstração. Público: noivas e famílias, empresas e quem organiza eventos em Lavras e região. Tom: elegante, acolhedor e sensorial; poucas palavras, produto e história em primeiro plano.
+Dados reais usados: Google Maps (endereço, telefone, "compras na loja, retirada na loja e entrega", "empresa de empreendedoras", 5,0 com 5 avaliações, três avaliações), Linktree (encomenda online e catálogos), texto "Quem é Simara Valácio?" escrito pela própria dona, placa do ateliê ("Eventos, Casamentos, Corporativos, Ateliê de doces finos"), 12 fotos e a logo enviadas pelo cliente.
+Sem preço, sem prazo, sem prometer o que não foi dito. Nada de alérgenos ou ingredientes sem confirmação.
+Observação sobre a nota: são só 5 avaliações; a página mostra a nota com a contagem real e dá destaque a "desde 2017", que é dado da própria dona.
+Estrutura: segue o Padrão de Qualidade das Demos (identidade própria, uma ferramenta que leva ao WhatsApp, conteúdo real, pendências visíveis).
+
+=====================================================
+MENU
+Início | Coleções | A vitrine | Monte a sua mesa | A Simara | Como encomendar | Contato
+Botão do topo: Fazer encomenda
+
+=====================================================
+1. HERO (vitrine em tela cheia, fotos passando devagar)
+Selo: Eventos · Casamentos · Corporativos
+Título: Doces finos que transformam momentos em memórias.
+Subtítulo: Ateliê de confeitaria fina em Lavras, com foco em bolos de casamento, doces finos e clássicos franceses.
+Botão principal: Fazer encomenda pelo WhatsApp
+Botão secundário: Ver os catálogos
+Legenda da foto que está passando (muda a cada foto): Cerejas cobertas de chocolate | Bombons com lavanda | Bombons de chocolate branco | Doce com noz dourada | Bem-casados | Mesa de doces | Bolo de casamento [NOMES DOS PRODUTOS A CONFIRMAR]
+Linha de apoio: Lavras/MG · Compras na loja, retirada e entrega
+
+=====================================================
+2. MANIFESTO
+Seção: O ateliê
+Título: Aqui, você não recebe apenas um doce.
+Complemento do título: Você vive uma experiência.
+Texto: Na Milcrê Pâtisserie, cada detalhe é pensado para transformar momentos em memórias inesquecíveis.
+Dado: Desde 2017 na confeitaria fina
+
+=====================================================
+3. COLEÇÕES
+Seção: Coleções
+Título: Feito à mão, pensado para o seu momento.
+Subtítulo: Escolha o caminho e veja o catálogo.
+Coleção 1 - Doces finos
+  Texto: Bombons, trufas e clássicos franceses, pensados na aparência e no sabor.
+  Botão: Ver a carta de doces
+Coleção 2 - Casamentos
+  Texto: Bolos de casamento, bem-casados e mesas de doces para o dia mais especial.
+  Botão: Ver os bolos cenográficos
+Coleção 3 - Corporativo
+  Texto: Doces para presentear e para receber, com catálogo próprio para empresas.
+  Botão: Ver o catálogo corporativo 2026
+Coleção 4 - Bolos e tortas
+  Texto: Bolos e tortas para celebrar com a família e os amigos.
+  Botão: Ver o catálogo de tortas
+Nota: [LINKS DIRETOS DOS CATÁLOGOS A CONFIRMAR] (por enquanto levam ao Linktree da Milcrê)
+
+=====================================================
+4. A VITRINE (galeria)
+Seção: A vitrine
+Título: Um pouco do que sai do ateliê.
+Subtítulo: Deslize e toque em uma foto para ver maior.
+Legendas: Placa do ateliê | Bombons de chocolate branco | Cereja coberta de chocolate | Cerejas cobertas de chocolate | Cerejas em fila | Doce com noz dourada | Bombons com lavanda | Esferas de chocolate branco | Bem-casados | Mesa de doces | Mesa com cerejas e orquídeas | Bolo de casamento
+Nota: [AUTORIA E AUTORIZAÇÃO DE USO DAS FOTOS A CONFIRMAR] [NOMES DOS PRODUTOS A CONFIRMAR]
+
+=====================================================
+5. MONTE A SUA MESA (ferramenta)
+Seção: Monte a sua mesa
+Título: Conte o seu momento. Nós cuidamos do resto.
+Subtítulo: Escolha a ocasião, o número de convidados e o que você imagina. O seu pedido vira um cartão pronto para enviar pelo WhatsApp.
+Passo 1 - Qual é a ocasião? Casamento | Aniversário | Evento corporativo | Presente | Outra ocasião
+Passo 2 - Quantos convidados? (de 10 a 300, ou "ainda não sei")
+Passo 3 - O que você imagina? (pode marcar vários) Doces finos | Bem-casados | Bolo | Tortas | Mesa de doces | Presentes corporativos
+Passo 4 - Para quando? (data, opcional)
+Cartão: Seu pedido (resumo ao vivo: ocasião, convidados, data e itens) com o selo M
+Botão: Enviar pelo WhatsApp
+Botão secundário: Recomeçar
+Aviso: A Milcrê responde com as opções e o orçamento. Nenhum dado fica guardado neste site.
+Mensagem do WhatsApp: Olá! Vim pelo site da Milcrê Pâtisserie e gostaria de um orçamento. Ocasião: [..] Convidados: [..] Data: [..] Itens: [..]
+
+=====================================================
+6. A SIMARA
+Seção: A confeiteira
+Título: Simara Valácio. [GRAFIA DO SOBRENOME A CONFIRMAR]
+Subtítulo: Fundadora da Milcrê Pâtisserie
+Texto 1: Mãe de três filhos lindos e abençoados, esposa dedicada e uma empreendedora movida por propósito.
+Texto 2: Minha história na confeitaria começou em 2017, quando decidi seguir o coração. A apenas um mês de me formar em Pedagogia, Educação Especial, deixei o caminho já traçado para viver o que hoje é a minha verdadeira paixão. E foi amor à primeira vista.
+Texto 3: Desde então, me especializei na arte da confeitaria fina, com foco em bolos de casamento, doces finos e clássicos franceses. Cada criação carrega mais do que técnica: carrega sensibilidade, elegância e um compromisso inegociável com a excelência.
+Citação: "Estou aqui para te entregar, com amor, dedicação e responsabilidade, aquilo que sei fazer de melhor: encantar através da confeitaria."
+Foto: retrato em preto e branco. [AUTORIZAÇÃO DA SIMARA PARA USAR A FOTO A CONFIRMAR]
+Botão: Falar com a Simara
+(Observação: o texto da dona foi usado com ajustes mínimos de pontuação e de pessoa; o sentido e as palavras são dela. Ela deve aprovar.)
+
+=====================================================
+7. COMO ENCOMENDAR
+Seção: Como encomendar
+Título: Do primeiro contato à entrega.
+Passo 01 - Você conta o momento: Fale pelo WhatsApp ou use "Monte a sua mesa" para enviar a ocasião, o número de convidados e a data.
+Passo 02 - Opções e orçamento: A Milcrê responde com as opções e o orçamento. [FORMA DE ORÇAMENTO, DEGUSTAÇÃO E ANTECEDÊNCIA MÍNIMA A CONFIRMAR]
+Passo 03 - Confirmação e produção: [CONDIÇÕES DE CONFIRMAÇÃO E PAGAMENTO A CONFIRMAR]
+Passo 04 - Retirada ou entrega: Compras na loja, retirada na loja ou entrega. [ÁREA DE ENTREGA A CONFIRMAR]
+Botão principal: Fazer encomenda pelo WhatsApp
+Botão secundário: Encomendar online
+
+=====================================================
+8. AVALIAÇÕES
+Seção: Avaliações
+Título: Quem provou, conta.
+Subtítulo: Nota 5,0 no Google, com 5 avaliações.
+Avaliação 1 (Quel V., avaliação no Google): "Com toda certeza, melhor doceria que já fui, os doces são realmente maravilhosos tanto de aparência e principalmente de sabor, sou apaixonada!!!"
+Avaliação 2 (Cleber V. B., avaliação no Google): "Tudo maravilhoso, bolos de prestígio e chocolate fenomenal!!!"
+Avaliação 3 (Luciana M., Local Guide, avaliação no Google): "Uma delícia os produtos! Tudo fresquinho uma delícia!"
+Botão: Ver no Google
+Nota: [AUTORIZAÇÃO PARA USAR AS AVALIAÇÕES A CONFIRMAR] (nomes reduzidos às iniciais)
+
+=====================================================
+9. ONDE NOS ENCONTRAR
+Seção: Contato
+Título: Venha nos visitar.
+Endereço: Rua Geraldo dos Passos, 100 · Água Limpa · Lavras/MG · CEP 37208-326
+WhatsApp: (35) 99882-6763
+Horário: [HORÁRIO A CONFIRMAR] (o Google Maps mostra abertura às 11h)
+Formas de comprar: Compras na loja · Retirada na loja · Entrega
+Redes: Instagram @milcrepatisserie · Facebook
+Botões: Chamar no WhatsApp | Encomendar online
+Selo: Empresa de empreendedoras
+
+=====================================================
+10. CHAMADA FINAL
+Título: Transformar momentos em memórias inesquecíveis.
+Texto: Conte o seu momento. A Milcrê cuida do doce.
+Botão: Fazer encomenda pelo WhatsApp
+
+=====================================================
+RODAPÉ
+Milcrê Pâtisserie, ateliê de doces finos. Lavras/MG.
+Contato: WhatsApp (35) 99882-6763 · Instagram @milcrepatisserie
+Endereço: Rua Geraldo dos Passos, 100 · Água Limpa · Lavras/MG
+Site produzido por Connect Alpha
+
+=====================================================
+PENDÊNCIAS [A CONFIRMAR]
+1. Grafia do sobrenome da Simara (pasta: "Velácio"; texto dela: "Valácio"; Maps: "Valacio") e aprovação do texto da seção dela; autorização para usar o retrato
+2. Links diretos dos 4 catálogos (Drive) e se o botão de encomenda online (Instadelivery) deve ter destaque igual ao do WhatsApp
+3. Autoria e autorização das fotos (parecem de fotógrafo e de eventos de clientes); nomes corretos dos produtos
+4. Horário de funcionamento, área de entrega, antecedência mínima, degustação, orçamento, forma de pagamento
+5. Alérgenos e ingredientes (a página não afirma nada)
+6. Autorização para usar as avaliações (nomes reduzidos)
+7. Logo em alta resolução (o arquivo tem 150 px; a demo usa uma versão ampliada)
+8. Se a Milcrê quer mostrar o selo "empresa de empreendedoras" e, se desejar, o de "acolhe a comunidade LGBTQ+" que aparece no Maps
+9. A memória da agência cita um design system anterior da Milcrê; o arquivo não foi encontrado e esta demo parte do zero
