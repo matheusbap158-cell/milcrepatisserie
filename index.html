@@ -66,7 +66,7 @@ h1,h2,h3{font-family:var(--font-display);font-weight:500;margin:0;text-wrap:bala
 p{margin:0}
 ::selection{background:var(--gold-300);color:var(--cocoa-900)}
 :focus-visible{outline:2px solid var(--gold-700);outline-offset:3px}
-.dark :focus-visible,.hero :focus-visible,.site-footer :focus-visible,.site-header:not(.scrolled) :focus-visible{outline-color:var(--gold-300)}
+.dark :focus-visible,.hero :focus-visible,.site-footer :focus-visible,.site-header:not(.scrolled) :focus-visible,.nav-links :focus-visible,dialog.lb :focus-visible{outline-color:var(--gold-300)}
 .wrap{max-width:1200px;margin:0 auto;padding:0 28px}
 .lab{font-weight:500;font-size:12.5px;letter-spacing:.22em;text-transform:uppercase;color:var(--gold-700)}
 .dark .lab,.hero .lab{color:var(--gold-300)}
@@ -94,7 +94,7 @@ p{margin:0}
 .nav-links a:hover::after,.nav-links a.on::after{transform:scaleX(1)}
 .menu-btn{display:none;margin-left:auto;background:transparent;border:1px solid var(--gold-300);color:var(--gold-300);width:48px;height:48px;font-size:20px;cursor:pointer;place-items:center}
 .site-header.scrolled .menu-btn{border-color:var(--gold-700);color:var(--gold-700)}
-@media (max-width:1180px){
+@media (max-width:1280px){
   .nav-links{position:absolute;left:0;right:0;top:100%;background:var(--cocoa-900);flex-direction:column;gap:0;padding:8px 28px 22px;display:none;border-top:1px solid var(--cocoa-700)}
   .nav-links.open{display:flex}
   .nav-links a{padding:16px 4px;border-bottom:1px solid var(--cocoa-700);color:#E9DCC4!important}
@@ -181,9 +181,9 @@ h2 em,h1 em{font-style:italic;color:var(--gold-700)}
 @media (max-width:620px){.cols{grid-template-columns:1fr}}
 .col{position:relative;display:flex;flex-direction:column;justify-content:flex-end;aspect-ratio:3/4.3;overflow:hidden;color:#fff;text-decoration:none;background:var(--cocoa-800)}
 .col img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transition:transform 1.2s cubic-bezier(.2,.7,.2,1)}
-.col::after{content:"";position:absolute;inset:0;background:linear-gradient(0deg,rgba(36,21,15,.92) 8%,rgba(36,21,15,.45) 48%,transparent 78%)}
+.col::after{content:"";position:absolute;inset:0;background:linear-gradient(0deg,rgba(36,21,15,.96) 10%,rgba(36,21,15,.86) 40%,rgba(36,21,15,.55) 62%,rgba(36,21,15,.12) 82%,transparent 100%)}
 .col:hover img{transform:scale(1.07)}
-.col .t{position:relative;z-index:2;padding:26px 24px 26px}
+.col .t{position:relative;z-index:2;padding:26px 24px 26px;text-shadow:0 1px 14px rgba(20,10,6,.7)}
 .col .n{font-family:var(--font-display);font-style:italic;color:var(--gold-300);font-size:20px}
 .col h3{font-size:34px;line-height:1.05;margin:4px 0 10px}
 .col p{font-size:15.5px;line-height:1.55;color:#EADFCB}
@@ -210,9 +210,10 @@ h2 em,h1 em{font-style:italic;color:var(--gold-700)}
 .arrows button:hover{background:var(--cocoa-900);color:var(--gold-300);border-color:var(--cocoa-900)}
 dialog.lb{border:0;padding:0;background:transparent;max-width:min(92vw,720px);width:100%;overflow:visible}
 dialog.lb::backdrop{background:rgba(20,10,6,.9)}
-dialog.lb img{width:100%;max-height:82vh;object-fit:contain;background:var(--cocoa-900)}
+dialog.lb{position:fixed}
+dialog.lb img{width:100%;max-height:calc(100dvh - 150px);object-fit:contain;background:var(--cocoa-900)}
 dialog.lb p{color:var(--gold-300);font-family:var(--font-display);font-style:italic;font-size:22px;text-align:center;margin-top:12px}
-dialog.lb .x{position:absolute;right:0;top:-54px;width:46px;height:46px;border:1px solid var(--gold-300);background:transparent;color:var(--gold-300);font-size:20px;cursor:pointer}
+dialog.lb .x{position:absolute;right:10px;top:10px;width:46px;height:46px;border:1px solid var(--gold-300);background:rgba(36,21,15,.82);color:var(--gold-300);font-size:20px;cursor:pointer;z-index:2}
 
 /* Monte a sua mesa */
 .build{display:grid;grid-template-columns:1.05fr .95fr;gap:72px;align-items:start}
@@ -232,13 +233,13 @@ dialog.lb .x{position:absolute;right:0;top:-54px;width:46px;height:46px;border:1
 .guests output{font-family:var(--font-display);font-size:58px;line-height:1;color:var(--ivory-50);min-width:2.4ch;font-weight:500}
 .guests output small{font-family:var(--font-body);font-weight:300;font-size:14px;letter-spacing:.14em;text-transform:uppercase;color:#C9B995;margin-left:8px}
 .guests input[type=range]{flex:1;min-width:160px}
-input[type=range]{-webkit-appearance:none;appearance:none;height:30px;background:transparent;cursor:pointer}
+input[type=range]{-webkit-appearance:none;appearance:none;height:44px;background:transparent;cursor:pointer}
 input[type=range]::-webkit-slider-runnable-track{height:2px;background:linear-gradient(90deg,var(--gold-300) var(--p,20%),rgba(216,184,120,.3) var(--p,20%))}
 input[type=range]::-moz-range-track{height:2px;background:rgba(216,184,120,.3)}
 input[type=range]::-moz-range-progress{height:2px;background:var(--gold-300)}
 input[type=range]::-webkit-slider-thumb{-webkit-appearance:none;width:26px;height:26px;border-radius:50%;background:var(--ivory-50);border:5px solid var(--gold-300);margin-top:-12px}
 input[type=range]::-moz-range-thumb{width:16px;height:16px;border-radius:50%;background:var(--ivory-50);border:5px solid var(--gold-300)}
-input[type=range]:disabled{opacity:.35;cursor:not-allowed}
+input[type=range].off{opacity:.45}
 .field label{display:block;font-weight:500;font-size:12.5px;letter-spacing:.18em;text-transform:uppercase;color:var(--gold-300);margin-bottom:2px}
 .field input{width:100%;height:52px;background:transparent;color:var(--ivory-50);border:0;border-bottom:1px solid var(--gold-300);font:400 18px var(--font-body);padding:0 2px;border-radius:0;color-scheme:dark}
 .field input:focus{outline:none;border-bottom:3px solid var(--gold-300)}
@@ -253,7 +254,7 @@ input[type=range]:disabled{opacity:.35;cursor:not-allowed}
 .invite .lab{color:var(--gold-700)}
 .invite .fleur-sep{margin:14px auto}
 .invite .ln{font-family:var(--font-display);font-size:clamp(28px,3.4vw,38px);line-height:1.2;margin:4px 0}
-.invite .ln.empty{color:#A89B88;font-style:italic;font-size:24px}
+.invite .ln.empty{color:var(--muted);font-style:italic;font-size:24px}
 .invite .ln small{display:block;font-family:var(--font-body);font-weight:500;font-size:11.5px;letter-spacing:.2em;text-transform:uppercase;color:var(--gold-700);margin-bottom:2px}
 .invite .seal{width:66px;height:66px;border-radius:50%;margin:24px auto 0;background:var(--cherry-700);color:var(--gold-300);display:grid;place-items:center;font-family:var(--font-display);font-size:38px;line-height:1;box-shadow:0 6px 14px rgba(138,28,46,.35),inset 0 0 0 4px rgba(216,184,120,.35)}
 .invite .seal.stamp{animation:stamp .6s cubic-bezier(.2,1.6,.4,1)}
@@ -284,7 +285,7 @@ input[type=range]:disabled{opacity:.35;cursor:not-allowed}
 .step+.step{padding-left:28px;border-left:1px solid var(--line)}
 @media (max-width:960px){.step{padding:30px 22px 30px 0}.step+.step{border-left:0;padding-left:0}.step:nth-child(2n){padding-left:22px;border-left:1px solid var(--line)}}
 @media (max-width:560px){.step:nth-child(2n){padding-left:0;border-left:0}.step{border-bottom:1px solid var(--line)}}
-.step .n{font-family:var(--font-display);font-style:italic;font-size:62px;line-height:1;color:var(--gold-500);margin-bottom:12px}
+.step .n{font-family:var(--font-display);font-style:italic;font-size:62px;line-height:1;color:var(--gold-700);margin-bottom:12px}
 .step h3{font-size:28px;font-weight:600;margin-bottom:10px;color:var(--cocoa-900)}
 .step p{font-size:16px;color:var(--muted);line-height:1.65}
 
@@ -292,7 +293,7 @@ input[type=range]:disabled{opacity:.35;cursor:not-allowed}
 .revs{display:grid;grid-template-columns:repeat(3,1fr);gap:48px}
 @media (max-width:900px){.revs{grid-template-columns:1fr;gap:44px}}
 .rev{position:relative;padding-top:34px}
-.rev::before{content:"“";position:absolute;left:-4px;top:-14px;font-family:var(--font-display);font-size:96px;line-height:1;color:var(--gold-500)}
+.rev::before{content:"“";content:"“" / "";position:absolute;left:-4px;top:-14px;font-family:var(--font-display);font-size:96px;line-height:1;color:var(--gold-500)}
 .rev p{font-family:var(--font-display);font-style:italic;font-size:clamp(22px,2.2vw,26px);line-height:1.35;color:var(--cocoa-900)}
 .rev .who{margin-top:22px;font-weight:500;font-size:12.5px;letter-spacing:.18em;text-transform:uppercase;color:var(--gold-700)}
 .rev .who small{display:block;font-weight:300;letter-spacing:.06em;text-transform:none;color:var(--muted);font-size:13.5px;margin-top:2px}
@@ -305,7 +306,7 @@ input[type=range]:disabled{opacity:.35;cursor:not-allowed}
 .loc dl{margin:0 0 34px;display:grid;gap:20px}
 .loc dt{font-weight:500;font-size:12px;letter-spacing:.22em;text-transform:uppercase;color:var(--gold-700);margin-bottom:2px}
 .loc dd{margin:0}
-.loc dd a{text-decoration:none;border-bottom:1px solid var(--gold-500)}
+.loc dd a{text-decoration:none;border-bottom:1px solid var(--gold-500);display:inline-block;padding:8px 0;line-height:1.4}
 .map-frame{aspect-ratio:4/3.4;border:1px solid var(--gold-500);padding:10px;background:#fff}
 .map-frame iframe{width:100%;height:100%;border:0;filter:sepia(.25) saturate(.85)}
 .badge{display:inline-block;margin-top:24px;border:1px solid var(--gold-500);padding:6px 16px;font-size:12px;letter-spacing:.18em;text-transform:uppercase;color:var(--gold-700)}
@@ -385,14 +386,14 @@ input[type=range]:disabled{opacity:.35;cursor:not-allowed}
       </div>
       <p class="foot" style="--i:4">Lavras/MG · Compras na loja, retirada e entrega</p>
     </div>
-    <div class="vitrine" id="vitrine-hero" aria-roledescription="carrossel" aria-label="Fotos dos doces da Milcrê">
+    <div class="vitrine" id="vitrine-hero" role="group" aria-roledescription="carrossel" aria-label="Fotos dos doces da Milcrê">
       <div class="frame">
         <img class="on" src="assets/cereja-chocolate-macro.jpg" alt="Cereja coberta de chocolate com açúcar vermelho, em foco aproximado" width="845" height="859" fetchpriority="high" data-cap="Cerejas cobertas de chocolate">
         <img src="assets/bombons-lavanda.jpg" alt="Bombons brancos decorados com ramos de lavanda" width="834" height="850" data-cap="Bombons com lavanda">
         <img src="assets/esferas-chocolate-branco.jpg" alt="Esferas de chocolate branco com detalhes dourados" width="841" height="851" data-cap="Bombons de chocolate branco">
         <img src="assets/cerejas-chocolate-prato.jpg" alt="Prato branco com cerejas cobertas de chocolate" width="808" height="858" data-cap="Cerejas cobertas de chocolate">
-        <img src="assets/doce-noz-dourada.jpg" alt="Doce branco com uma noz com detalhes dourados" width="780" height="856" data-cap="Doce com noz dourada">
-        <img src="assets/bolo-de-casamento.jpg" alt="Bolo de casamento de vários andares com flores de açúcar" width="873" height="879" data-cap="Bolo de casamento">
+        <img src="assets/doce-noz-dourada.jpg" alt="Doce branco com uma noz dourada por cima" width="780" height="856" data-cap="Doce com noz dourada">
+        <img src="assets/bolo-de-casamento.jpg" alt="Bolo de casamento de vários andares com flores rosadas" width="873" height="879" data-cap="Bolo de casamento">
         <div class="cap"><span id="vCap">Cerejas cobertas de chocolate</span><b id="vNum" aria-hidden="true">01 / 06</b></div>
         <div class="bar" aria-hidden="true"><i id="vBar"></i></div>
       </div>
@@ -408,7 +409,7 @@ input[type=range]:disabled{opacity:.35;cursor:not-allowed}
     <h2 id="man-title">Aqui, você não recebe apenas um doce. <em>Você vive uma experiência.</em></h2>
     <div class="fleur-sep" aria-hidden="true"><svg><use href="#fleur"/></svg></div>
     <p class="lead">Na Milcrê Pâtisserie, cada detalhe é pensado para transformar momentos em memórias inesquecíveis.</p>
-    <div class="since"><b>Desde 2017</b><span>na confeitaria fina</span></div>
+    <div class="since"><b>Desde 2017</b><span>Simara na confeitaria fina</span></div>
   </div>
 </section>
 
@@ -421,10 +422,10 @@ input[type=range]:disabled{opacity:.35;cursor:not-allowed}
       <p class="sub">Escolha o caminho e veja o catálogo.</p>
     </div>
     <div class="cols stagger reveal">
-      <a class="col" href="https://linktr.ee/milcre_patisserie" target="_blank" rel="noopener"><img src="assets/bombons-lavanda.jpg" alt="Bombons decorados com lavanda" width="834" height="850" loading="lazy"><span class="frame" aria-hidden="true"></span><span class="t"><span class="n">I</span><h3>Doces finos</h3><p>Bombons, trufas e clássicos franceses, pensados na aparência e no sabor.</p><span class="go">Ver a carta de doces</span></span></a>
-      <a class="col" href="https://linktr.ee/milcre_patisserie" target="_blank" rel="noopener"><img src="assets/bolo-de-casamento.jpg" alt="Bolo de casamento com flores de açúcar" width="873" height="879" loading="lazy"><span class="frame" aria-hidden="true"></span><span class="t"><span class="n">II</span><h3>Casamentos</h3><p>Bolos de casamento, bem-casados e mesas de doces para o dia mais especial.</p><span class="go">Ver os bolos cenográficos</span></span></a>
-      <a class="col" href="https://linktr.ee/milcre_patisserie" target="_blank" rel="noopener"><img src="assets/esferas-chocolate-branco.jpg" alt="Esferas de chocolate branco com detalhes dourados" width="841" height="851" loading="lazy"><span class="frame" aria-hidden="true"></span><span class="t"><span class="n">III</span><h3>Corporativo</h3><p>Doces para presentear e para receber, com catálogo próprio para empresas.</p><span class="go">Ver o catálogo corporativo 2026</span></span></a>
-      <a class="col" href="https://linktr.ee/milcre_patisserie" target="_blank" rel="noopener"><img src="assets/mesa-de-doces.jpg" alt="Mesa de doces com bolos, tortas e frutas" width="876" height="878" loading="lazy"><span class="frame" aria-hidden="true"></span><span class="t"><span class="n">IV</span><h3>Bolos e tortas</h3><p>Bolos e tortas para celebrar com a família e os amigos.</p><span class="go">Ver o catálogo de tortas</span></span></a>
+      <a class="col" href="https://linktr.ee/milcre_patisserie" target="_blank" rel="noopener"><img src="assets/bombons-lavanda.jpg" alt="Bombons decorados com lavanda" width="834" height="850" loading="lazy"><span class="frame" aria-hidden="true"></span><div class="t"><span class="n">I</span><h3>Doces finos</h3><p>Bombons, trufas e clássicos franceses, pensados na aparência e no sabor.</p><span class="go">Ver a carta de doces</span></div></a>
+      <a class="col" href="https://linktr.ee/milcre_patisserie" target="_blank" rel="noopener"><img src="assets/bolo-de-casamento.jpg" alt="Bolo de casamento com flores rosadas" width="873" height="879" loading="lazy"><span class="frame" aria-hidden="true"></span><div class="t"><span class="n">II</span><h3>Casamentos</h3><p>Bolos de casamento, bem-casados e mesas de doces para o dia mais especial.</p><span class="go">Ver os bolos cenográficos</span></div></a>
+      <a class="col" href="https://linktr.ee/milcre_patisserie" target="_blank" rel="noopener"><img src="assets/esferas-chocolate-branco.jpg" alt="Esferas de chocolate branco com detalhes dourados" width="841" height="851" loading="lazy"><span class="frame" aria-hidden="true"></span><div class="t"><span class="n">III</span><h3>Corporativo</h3><p>Doces para presentear e para receber, com catálogo próprio para empresas.</p><span class="go">Ver o catálogo corporativo 2026</span></div></a>
+      <a class="col" href="https://linktr.ee/milcre_patisserie" target="_blank" rel="noopener"><img src="assets/mesa-de-doces.jpg" alt="Mesa de doces com bolos, tortas e frutas" width="876" height="878" loading="lazy"><span class="frame" aria-hidden="true"></span><div class="t"><span class="n">IV</span><h3>Bolos e tortas</h3><p>Bolos e tortas para celebrar com a família e os amigos.</p><span class="go">Ver o catálogo de tortas</span></div></a>
     </div>
     <p class="note">Os botões levam ao Linktree da Milcrê. <span class="pend">[LINKS DIRETOS DOS CATÁLOGOS A CONFIRMAR]</span></p>
   </div>
@@ -445,7 +446,7 @@ input[type=range]:disabled{opacity:.35;cursor:not-allowed}
         <figure class="shot"><button type="button" data-src="assets/cereja-chocolate-macro.jpg" data-cap="Cereja coberta de chocolate" data-alt="Cereja coberta de chocolate com açúcar vermelho, em foco aproximado" aria-label="Ampliar a foto: Cereja coberta de chocolate"><img src="assets/cereja-chocolate-macro.jpg" alt="Cereja coberta de chocolate com açúcar vermelho, em foco aproximado" width="845" height="859" loading="lazy"></button><figcaption>Cereja coberta de chocolate</figcaption></figure>
         <figure class="shot"><button type="button" data-src="assets/cerejas-chocolate-prato.jpg" data-cap="Cerejas cobertas de chocolate" data-alt="Mãos segurando um prato branco com cerejas cobertas de chocolate" aria-label="Ampliar a foto: Cerejas cobertas de chocolate"><img src="assets/cerejas-chocolate-prato.jpg" alt="Mãos segurando um prato branco com cerejas cobertas de chocolate" width="808" height="858" loading="lazy"></button><figcaption>Cerejas cobertas de chocolate</figcaption></figure>
         <figure class="shot"><button type="button" data-src="assets/cerejas-chocolate-fila.jpg" data-cap="Cerejas em fila" data-alt="Cerejas cobertas de chocolate enfileiradas sobre fundo branco" aria-label="Ampliar a foto: Cerejas em fila"><img src="assets/cerejas-chocolate-fila.jpg" alt="Cerejas cobertas de chocolate enfileiradas sobre fundo branco" width="846" height="850" loading="lazy"></button><figcaption>Cerejas em fila</figcaption></figure>
-        <figure class="shot"><button type="button" data-src="assets/doce-noz-dourada.jpg" data-cap="Doce com noz dourada" data-alt="Doce branco com uma noz com detalhes dourados sobre fundo amarelo" aria-label="Ampliar a foto: Doce com noz dourada"><img src="assets/doce-noz-dourada.jpg" alt="Doce branco com uma noz com detalhes dourados sobre fundo amarelo" width="780" height="856" loading="lazy"></button><figcaption>Doce com noz dourada</figcaption></figure>
+        <figure class="shot"><button type="button" data-src="assets/doce-noz-dourada.jpg" data-cap="Doce com noz dourada" data-alt="Doce branco com uma noz dourada por cima, sobre fundo amarelo" aria-label="Ampliar a foto: Doce com noz dourada"><img src="assets/doce-noz-dourada.jpg" alt="Doce branco com uma noz dourada por cima, sobre fundo amarelo" width="780" height="856" loading="lazy"></button><figcaption>Doce com noz dourada</figcaption></figure>
         <figure class="shot"><button type="button" data-src="assets/bombons-lavanda.jpg" data-cap="Bombons com lavanda" data-alt="Bombons brancos decorados com ramos de lavanda" aria-label="Ampliar a foto: Bombons com lavanda"><img src="assets/bombons-lavanda.jpg" alt="Bombons brancos decorados com ramos de lavanda" width="834" height="850" loading="lazy"></button><figcaption>Bombons com lavanda</figcaption></figure>
         <figure class="shot"><button type="button" data-src="assets/esferas-chocolate-branco.jpg" data-cap="Esferas de chocolate branco" data-alt="Esferas de chocolate branco com detalhes dourados em fila" aria-label="Ampliar a foto: Esferas de chocolate branco"><img src="assets/esferas-chocolate-branco.jpg" alt="Esferas de chocolate branco com detalhes dourados em fila" width="841" height="851" loading="lazy"></button><figcaption>Esferas de chocolate branco</figcaption></figure>
         <figure class="shot"><button type="button" data-src="assets/bem-casados.jpg" data-cap="Bem-casados" data-alt="Bem-casados embrulhados em fita de cetim sobre uma prateleira suspensa por cordas" aria-label="Ampliar a foto: Bem-casados"><img src="assets/bem-casados.jpg" alt="Bem-casados embrulhados em fita de cetim sobre uma prateleira suspensa por cordas" width="721" height="867" loading="lazy"></button><figcaption>Bem-casados</figcaption></figure>
@@ -474,23 +475,23 @@ input[type=range]:disabled{opacity:.35;cursor:not-allowed}
         <p class="sub">Escolha a ocasião, o número de convidados e o que você imagina. O seu pedido vira um cartão pronto para enviar pelo WhatsApp.</p>
       </div>
 
-      <div class="q" role="radiogroup" aria-labelledby="q1">
+      <div class="q" role="group" aria-labelledby="q1">
         <div class="qt"><b>I</b><span id="q1">Qual é a ocasião?</span></div>
         <div class="chips" id="occ">
-          <button type="button" class="chip" role="radio" aria-checked="false">Casamento</button>
-          <button type="button" class="chip" role="radio" aria-checked="false">Aniversário</button>
-          <button type="button" class="chip" role="radio" aria-checked="false">Evento corporativo</button>
-          <button type="button" class="chip" role="radio" aria-checked="false">Presente</button>
-          <button type="button" class="chip" role="radio" aria-checked="false">Outra ocasião</button>
+          <button type="button" class="chip" aria-pressed="false">Casamento</button>
+          <button type="button" class="chip" aria-pressed="false">Aniversário</button>
+          <button type="button" class="chip" aria-pressed="false">Evento corporativo</button>
+          <button type="button" class="chip" aria-pressed="false">Presente</button>
+          <button type="button" class="chip" aria-pressed="false">Outra ocasião</button>
         </div>
       </div>
 
       <div class="q">
         <div class="qt"><b>II</b><span id="q2">Quantos convidados?</span></div>
         <div class="guests">
-          <output id="gOut" for="gRange" aria-live="polite">80<small>pessoas</small></output>
+          <output id="gOut" for="gRange" aria-live="polite">?<small>pessoas</small></output>
           <input type="range" id="gRange" min="10" max="300" step="5" value="80" aria-labelledby="q2">
-          <button type="button" class="chip" id="gUnk" aria-pressed="false">Ainda não sei</button>
+          <button type="button" class="chip" id="gUnk" aria-pressed="true">Ainda não sei</button>
         </div>
       </div>
 
@@ -516,7 +517,7 @@ input[type=range]:disabled{opacity:.35;cursor:not-allowed}
     </div>
 
     <div class="card-wrap reveal">
-      <div class="invite" id="invite" aria-live="polite">
+      <div class="invite" id="invite">
         <span class="lab">Seu pedido</span>
         <div class="fleur-sep" aria-hidden="true"><svg><use href="#fleur"/></svg></div>
         <div class="ln" id="cOcc"></div>
@@ -539,16 +540,16 @@ input[type=range]:disabled{opacity:.35;cursor:not-allowed}
 <section class="sec bg-ivory" id="simara" aria-labelledby="sim-title">
   <div class="wrap about">
     <div class="portrait reveal">
-      <img src="assets/simara.jpg" alt="Retrato em preto e branco de Simara, fundadora da Milcrê" width="877" height="874" loading="lazy">
+      <img src="assets/simara.jpg" alt="Retrato em preto e branco de Simara, confeiteira da Milcrê" width="877" height="874" loading="lazy">
       <span class="pend">[AUTORIZAÇÃO DA SIMARA PARA USAR A FOTO A CONFIRMAR]</span>
     </div>
     <div class="about-copy reveal">
       <span class="lab">A confeiteira</span>
       <h2 id="sim-title">Simara Valácio. <span class="pend" style="font-size:.22em;vertical-align:middle">[GRAFIA DO SOBRENOME A CONFIRMAR]</span></h2>
-      <p class="role">Fundadora da Milcrê Pâtisserie</p>
+      <p class="role">Confeiteira e empreendedora <span class="pend">[CARGO A CONFIRMAR]</span></p>
       <div class="txt">
-        <p>Mãe de três filhos lindos e abençoados, esposa dedicada e uma empreendedora movida por propósito.</p>
-        <p>Minha história na confeitaria começou em 2017, quando decidi seguir o coração. A apenas um mês de me formar em Pedagogia, Educação Especial, deixei o caminho já traçado para viver o que hoje é a minha verdadeira paixão. E foi amor à primeira vista.</p>
+        <p>Sou mãe de três filhos lindos e abençoados, esposa dedicada e uma empreendedora movida por propósito.</p>
+        <p>Minha história na confeitaria começou em 2017, quando decidi seguir o coração. A apenas um mês de me formar em Pedagogia (Educação Especial), fiz uma escolha corajosa: deixei o caminho já traçado para viver o que hoje é a minha verdadeira paixão. E foi amor à primeira vista.</p>
         <p>Desde então, me especializei na arte da confeitaria fina, com foco em bolos de casamento, doces finos e clássicos franceses. Cada criação carrega mais do que técnica: carrega sensibilidade, elegância e um compromisso inegociável com a excelência.</p>
       </div>
       <blockquote>“Estou aqui para te entregar, com amor, dedicação e responsabilidade, aquilo que sei fazer de melhor: encantar através da confeitaria.”</blockquote>
@@ -592,7 +593,7 @@ input[type=range]:disabled{opacity:.35;cursor:not-allowed}
       <figure class="rev" style="margin:0"><p>Uma delícia os produtos! Tudo fresquinho uma delícia!</p><figcaption class="who">Luciana M.<small>Local Guide · Avaliação no Google</small></figcaption></figure>
     </div>
     <div class="cta-center"><a class="btn btn-ghost" href="https://www.google.com/maps/place/Milcr%C3%AA+P%C3%A2tisserie/@-21.2370101,-44.9965028,17z/data=!4m15!1m8!3m7!1s0x9ffd85d9b43ea9:0xe90ed5544faf74e7!2zTWlsY3LDqiBQw6J0aXNzZXJpZQ!8m2!3d-21.2370101!4d-44.9965028!10e5!16s%2Fg%2F11p00g1cfr" target="_blank" rel="noopener">Ver no Google</a></div>
-    <p class="note"><span class="pend">[AUTORIZAÇÃO PARA USAR AS AVALIAÇÕES A CONFIRMAR]</span></p>
+    <p class="note"><span class="pend">[AUTORIZAÇÃO PARA USAR AS AVALIAÇÕES A CONFIRMAR]</span> <span class="pend">[CONFERIR SE QUEL V. TEM RELAÇÃO COM A DONA]</span></p>
   </div>
 </section>
 
@@ -685,7 +686,7 @@ input[type=range]:disabled{opacity:.35;cursor:not-allowed}
   function closeMenu(){ nav.classList.remove('open'); menuBtn.setAttribute('aria-expanded','false'); menuBtn.setAttribute('aria-label','Abrir menu'); }
   menuBtn.addEventListener('click', function(){ var o=nav.classList.toggle('open'); menuBtn.setAttribute('aria-expanded',String(o)); menuBtn.setAttribute('aria-label',o?'Fechar menu':'Abrir menu'); });
   nav.querySelectorAll('a').forEach(function(a){ a.addEventListener('click', closeMenu); });
-  document.addEventListener('keydown', function(e){ if(e.key==='Escape') closeMenu(); });
+  document.addEventListener('keydown', function(e){ if(e.key==='Escape' && nav.classList.contains('open')){ closeMenu(); menuBtn.focus(); } });
 
   /* Vitrine do hero */
   var slides=[].slice.call(document.querySelectorAll('#vitrine-hero .frame img'));
@@ -693,7 +694,7 @@ input[type=range]:disabled{opacity:.35;cursor:not-allowed}
   var cur=0, timer=null, playing=!reduce;
   function show(i){
     cur=(i+slides.length)%slides.length;
-    slides.forEach(function(s,k){ s.classList.toggle('on',k===cur); });
+    slides.forEach(function(s,k){ s.classList.toggle('on',k===cur); s.setAttribute('aria-hidden',String(k!==cur)); });
     vCap.textContent=slides[cur].dataset.cap;
     vNum.textContent=('0'+(cur+1)).slice(-2)+' / '+('0'+slides.length).slice(-2);
     vBar.classList.remove('run'); void vBar.offsetWidth; if(playing) vBar.classList.add('run');
@@ -726,8 +727,8 @@ input[type=range]:disabled{opacity:.35;cursor:not-allowed}
   var fData=document.getElementById('fData'), fNome=document.getElementById('fNome');
   var cOcc=document.getElementById('cOcc'), cGue=document.getElementById('cGue'), cDat=document.getElementById('cDat'), cIte=document.getElementById('cIte');
   var seal=document.getElementById('seal'), erro=document.getElementById('erro');
-  var sel={occ:'',unk:false,items:[]};
-  var today=new Date(); fData.min=today.toISOString().slice(0,10);
+  var sel={occ:'',unk:true,items:[]};
+  var today=new Date(); fData.min=today.getFullYear()+'-'+('0'+(today.getMonth()+1)).slice(-2)+'-'+('0'+today.getDate()).slice(-2);
   function fmtDate(v){ if(!v) return ''; var p=v.split('-'); return p[2]+'/'+p[1]+'/'+p[0]; }
   function line(el,small,txt,emptyTxt){ el.className='ln'+(txt?'':' empty'); el.innerHTML=txt?'<small>'+small+'</small>'+txt:emptyTxt; }
   function esc(s){ return s.replace(/[&<>]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;'}[c]}); }
@@ -737,24 +738,24 @@ input[type=range]:disabled{opacity:.35;cursor:not-allowed}
     line(cGue,'Convidados',esc(guestsTxt()),'');
     line(cDat,'Data',esc(fmtDate(fData.value)),'Data a combinar');
     line(cIte,'Itens',esc(sel.items.join(' · ')),'Escolha o que imagina');
-    var p=((gR.value-gR.min)/(gR.max-gR.min)*100); gR.style.setProperty('--p',p+'%');
+    var p=((gR.value-gR.min)/(gR.max-gR.min)*100); gR.style.setProperty('--p',p+'%'); gR.classList.toggle('off',sel.unk);
     gOut.firstChild.nodeValue=sel.unk?'?':gR.value;
     if(stamp){ seal.classList.remove('stamp'); void seal.offsetWidth; seal.classList.add('stamp'); }
   }
   occB.forEach(function(b){ b.addEventListener('click', function(){
-    occB.forEach(function(o){ o.setAttribute('aria-checked',String(o===b)); }); sel.occ=b.textContent; erro.classList.remove('on'); render(true);
+    occB.forEach(function(o){ o.setAttribute('aria-pressed',String(o===b)); }); sel.occ=b.textContent; erro.classList.remove('on'); render(true);
   }); });
   itemB.forEach(function(b){ b.addEventListener('click', function(){
     var on=b.getAttribute('aria-pressed')!=='true'; b.setAttribute('aria-pressed',String(on));
     sel.items=itemB.filter(function(x){return x.getAttribute('aria-pressed')==='true'}).map(function(x){return x.textContent});
     render(true);
   }); });
-  gR.addEventListener('input', function(){ sel.unk=false; gUnk.setAttribute('aria-pressed','false'); gR.disabled=false; render(false); });
-  gUnk.addEventListener('click', function(){ sel.unk=!sel.unk; gUnk.setAttribute('aria-pressed',String(sel.unk)); gR.disabled=sel.unk; render(true); });
+  gR.addEventListener('input', function(){ sel.unk=false; gUnk.setAttribute('aria-pressed','false'); render(true); });
+  gUnk.addEventListener('click', function(){ sel.unk=!sel.unk; gUnk.setAttribute('aria-pressed',String(sel.unk)); render(true); });
   fData.addEventListener('input', function(){ render(true); });
   document.getElementById('reset').addEventListener('click', function(){
-    sel={occ:'',unk:false,items:[]}; occB.forEach(function(o){ o.setAttribute('aria-checked','false'); }); itemB.forEach(function(o){ o.setAttribute('aria-pressed','false'); });
-    gUnk.setAttribute('aria-pressed','false'); gR.disabled=false; gR.value=80; fData.value=''; fNome.value=''; erro.classList.remove('on'); render(false);
+    sel={occ:'',unk:true,items:[]}; occB.forEach(function(o){ o.setAttribute('aria-pressed','false'); }); itemB.forEach(function(o){ o.setAttribute('aria-pressed','false'); });
+    gUnk.setAttribute('aria-pressed','true'); gR.value=80; fData.value=''; fNome.value=''; erro.classList.remove('on'); render(false);
   });
   document.getElementById('send').addEventListener('click', function(){
     if(!sel.occ){ erro.classList.add('on'); occB[0].focus(); return; }

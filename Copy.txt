@@ -17,7 +17,7 @@ Título: Doces finos que transformam momentos em memórias.
 Subtítulo: Ateliê de confeitaria fina em Lavras, com foco em bolos de casamento, doces finos e clássicos franceses.
 Botão principal: Fazer encomenda pelo WhatsApp
 Botão secundário: Ver os catálogos
-Legenda da foto que está passando (muda a cada foto): Cerejas cobertas de chocolate | Bombons com lavanda | Bombons de chocolate branco | Doce com noz dourada | Bem-casados | Mesa de doces | Bolo de casamento [NOMES DOS PRODUTOS A CONFIRMAR]
+Legenda da foto que está passando (muda a cada foto, 6 fotos): Cerejas cobertas de chocolate | Bombons com lavanda | Bombons de chocolate branco | Cerejas cobertas de chocolate | Doce com noz dourada | Bolo de casamento [NOMES DOS PRODUTOS A CONFIRMAR]
 Linha de apoio: Lavras/MG · Compras na loja, retirada e entrega
 
 =====================================================
@@ -26,7 +26,7 @@ Seção: O ateliê
 Título: Aqui, você não recebe apenas um doce.
 Complemento do título: Você vive uma experiência.
 Texto: Na Milcrê Pâtisserie, cada detalhe é pensado para transformar momentos em memórias inesquecíveis.
-Dado: Desde 2017 na confeitaria fina
+Dado: Desde 2017 (Simara na confeitaria fina)
 
 =====================================================
 3. COLEÇÕES
@@ -61,9 +61,9 @@ Seção: Monte a sua mesa
 Título: Conte o seu momento. Nós cuidamos do resto.
 Subtítulo: Escolha a ocasião, o número de convidados e o que você imagina. O seu pedido vira um cartão pronto para enviar pelo WhatsApp.
 Passo 1 - Qual é a ocasião? Casamento | Aniversário | Evento corporativo | Presente | Outra ocasião
-Passo 2 - Quantos convidados? (de 10 a 300, ou "ainda não sei")
+Passo 2 - Quantos convidados? (de 10 a 300; começa em "Ainda não sei" para não mandar um número que a pessoa não escolheu)
 Passo 3 - O que você imagina? (pode marcar vários) Doces finos | Bem-casados | Bolo | Tortas | Mesa de doces | Presentes corporativos
-Passo 4 - Para quando? (data, opcional)
+Passo 4 - Para quando? (data, opcional) e Seu nome (opcional)
 Cartão: Seu pedido (resumo ao vivo: ocasião, convidados, data e itens) com o selo M
 Botão: Enviar pelo WhatsApp
 Botão secundário: Recomeçar
@@ -74,9 +74,9 @@ Mensagem do WhatsApp: Olá! Vim pelo site da Milcrê Pâtisserie e gostaria de u
 6. A SIMARA
 Seção: A confeiteira
 Título: Simara Valácio. [GRAFIA DO SOBRENOME A CONFIRMAR]
-Subtítulo: Fundadora da Milcrê Pâtisserie
-Texto 1: Mãe de três filhos lindos e abençoados, esposa dedicada e uma empreendedora movida por propósito.
-Texto 2: Minha história na confeitaria começou em 2017, quando decidi seguir o coração. A apenas um mês de me formar em Pedagogia, Educação Especial, deixei o caminho já traçado para viver o que hoje é a minha verdadeira paixão. E foi amor à primeira vista.
+Subtítulo: Confeiteira e empreendedora [CARGO A CONFIRMAR]
+Texto 1: Sou mãe de três filhos lindos e abençoados, esposa dedicada e uma empreendedora movida por propósito.
+Texto 2: Minha história na confeitaria começou em 2017, quando decidi seguir o coração. A apenas um mês de me formar em Pedagogia (Educação Especial), fiz uma escolha corajosa: deixei o caminho já traçado para viver o que hoje é a minha verdadeira paixão. E foi amor à primeira vista.
 Texto 3: Desde então, me especializei na arte da confeitaria fina, com foco em bolos de casamento, doces finos e clássicos franceses. Cada criação carrega mais do que técnica: carrega sensibilidade, elegância e um compromisso inegociável com a excelência.
 Citação: "Estou aqui para te entregar, com amor, dedicação e responsabilidade, aquilo que sei fazer de melhor: encantar através da confeitaria."
 Foto: retrato em preto e branco. [AUTORIZAÇÃO DA SIMARA PARA USAR A FOTO A CONFIRMAR]
@@ -103,7 +103,7 @@ Avaliação 1 (Quel V., avaliação no Google): "Com toda certeza, melhor doceri
 Avaliação 2 (Cleber V. B., avaliação no Google): "Tudo maravilhoso, bolos de prestígio e chocolate fenomenal!!!"
 Avaliação 3 (Luciana M., Local Guide, avaliação no Google): "Uma delícia os produtos! Tudo fresquinho uma delícia!"
 Botão: Ver no Google
-Nota: [AUTORIZAÇÃO PARA USAR AS AVALIAÇÕES A CONFIRMAR] (nomes reduzidos às iniciais)
+Nota: [AUTORIZAÇÃO PARA USAR AS AVALIAÇÕES A CONFIRMAR] [CONFERIR SE QUEL V. TEM RELAÇÃO COM A DONA: no Maps o sobrenome é igual ao da Simara] (nomes reduzidos às iniciais)
 
 =====================================================
 9. ONDE NOS ENCONTRAR
